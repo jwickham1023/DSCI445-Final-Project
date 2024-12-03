@@ -7813,6 +7813,17 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>We looked into doing some feature engineering by adding some dummy columns for various features, but decided to forgo this because it didn't provide much help to our results</p>
+</div>
+</div>
+</div>
+</div></div><div class="fragment">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p>So with that out of the way, that's it right? The data's good to be thrown into some models?</p>
 </div>
 </div>
@@ -8140,7 +8151,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Since our data is heavily imbalanced, we want to be able to correctly identify fraudulent data as such while still trying to keep a low false positive rate, so we want to focus on making our recall rate as high as we can while still maintaining our desired goal of 5% FPR.</p>
+<p>Since our data is heavily imbalanced, we want to be able to correctly identify fraudulent data as such while still trying to keep a low false positive rate, so we want to focus on making our recall rate as high as we can while still maintaining our desired goal of 5% FPR. <em>foreshadowing</em></p>
 </div>
 </div>
 </div>
@@ -8195,7 +8206,7 @@ main {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p><strong>ADASYN</strong> (ADAptive SYNthetic Sampling): SMOTE but adaptively computes more datapoints that are "harder to learn"</p>
+<p><strong>ADASYN</strong> (ADAptive SYNthetic Sampling): SMOTE, but adaptively computes more datapoints that are "harder to learn"</p>
 </div>
 </div>
 </div>
@@ -8218,6 +8229,17 @@ main {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <p><strong>SMOTE + Tomek's Links</strong>: Over-sampling with SMOTE and under-sampling with Tomek's links (selects pairs of observations that are themselves neighbors but of different classes)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>These are a few we tried for the project, and each of them performed alright to varying degrees.</p>
 </div>
 </div>
 </div>
