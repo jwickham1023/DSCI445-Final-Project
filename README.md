@@ -15,8 +15,8 @@ Group 1 project for DSCI445 @ CSU
     * For more information, read here: https://nbconvert.readthedocs.io/en/latest/install.html
 
 ### The paper:
-* In the same directory as the project, run: `jupyter nbconvert --to pdf --TagRemovePreprocessor.enabled=True --TagRemovePreprocessor.remove_input_tags remove_input --TagRemovePreprocessor.remove_cell_tags remove_cell`
+* Open the `create_paper.ipynb` file and run the code cell to create the paper
 
 ### The presentation
-* In the same directory as the project, run: `jupyter nbcovert --to slides`
+* In the same directory as the project, run: `jupyter nbcovert presentation.ipynb --to slides`
 * Open the `presentation.slides.html` file
