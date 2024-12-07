@@ -32,6 +32,7 @@ Group 1 project for DSCI445 @ CSU
 
 ### The paper:
 * Open the `create_paper.ipynb` file and run the code cell to create the paper
+* **NOTE**: Any numbers, graphs, and tables were taken from the project notebook. Since it takes a long time to compute, we copied the results over to easily make the paper.
 
 ### The presentation
 * In the same directory as the project, run: `jupyter nbcovert presentation.ipynb --to slides`
