@@ -19,7 +19,7 @@ Group 1 project for DSCI445 @ CSU
     * For our project, we programmed in VSCode using the Jupyter Notebook extension
     * If you don't use VSCode, install accordingly
 * Install the packages necessary to run the code:
-    * `pip install numpy pandas matplotlib imblearn sklearn seaborn xgboost kagglehub`
+    * `pip install numpy pandas matplotlib imbalanced-learn scikit-learn seaborn xgboost kagglehub`
     * If you run into issues with installing these, append `--user` at the end of the command
 * Install these things to compile the paper:
     * `pip install nbconvert pandoc`
